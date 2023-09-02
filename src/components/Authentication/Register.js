@@ -104,7 +104,7 @@ const Register = () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://chat-app-api-gat6.onrender.com/api/user",
         { name, email, password, pic },
         config
       );
